@@ -90,7 +90,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  </p>
 <p>
  
- Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP).
+ Now that we have both virtual machines up and running we are going to connect to our Windows 10 Virtual Machine using the remote desktop connection (RDP).
 
  </p>
 <br />
