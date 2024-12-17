@@ -68,12 +68,12 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 </p>
 <p>
   
-  Click next until we get to the networking page again.
+  Click next until we get to the networking .
   
-  The networking should automatically give us the virtual network from VM1 as well as the subnet. 
+  The networking should automatically give us the virtual network from the Virtual Machine as well as the subnet. 
   
 <p>
-<img src="https://imgur.com/3fQXRcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gsy2yVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
