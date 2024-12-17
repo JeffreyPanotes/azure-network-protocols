@@ -118,7 +118,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  </p>
 <br />
 
- 4.) We are going to want to retrieve the private IP address of our Ubuntu VM and then attempt to ping it from within our Windows 10 VM using wireshark. To ping the private IP address of the Ubuntu machine open CMD or Powershell on the Windows machine and type: ping 10.0.0.5 or whatever the private IP address is for your Ubuntu machine.
+   We are going to want to retrieve the private IP address of our Ubuntu Virtual Machine and then attempt to ping it from within our Windows 10 Virtual Machine using wireshark. To ping the private IP address of the Ubuntu machine open Powershell on the Windows machine and type: ping 10.0.0.5 or your private IP address from the Ubuntu machine.
  
 <p>
 <img src="https://i.imgur.com/kWg0lBE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -126,15 +126,15 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <p>
  
 <p>
-<img src="https://imgur.com/pp4eZdK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UeTa7Ns.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
- In either CMD or Powershell ping www.google.com and observe the traffic in wireshark.
+  In  Powershell ping www.google.com and observe the traffic in wireshark.
  
-5.) We then are going to initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
+   We then are going to initiate a non-stop ping from our Windows 10 Virtual Machine to our Ubuntu Virtual Machine.
  
-6.) Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic. To disable incoming ICMP traffic click "Add" new rule and copy everything exactly from the picture. Once that is done you can create the rule and it will create automatically and show up as a new rule.
+   Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic. To disable incoming ICMP traffic click "Add" new rule and copy everything exactly from the picture. Once that is done you can create the rule and it will create automatically and show up as a new rule.
  
  <p>
 <img src="https://imgur.com/r3dH3Yy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -148,11 +148,11 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  
  Now that we have disabled incoming ICMP traffic from VM2 if we go back to VM1 you can see the ping request is timing out. 
  
- 7.) Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
+   Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 Stop the ping activity
  
- 8.) The next thing we are going to do is Observe SSH Traffic.
+  The next thing we are going to do is Observe SSH Traffic.
  
  
  
