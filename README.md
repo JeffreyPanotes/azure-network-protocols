@@ -90,7 +90,17 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  </p>
 <p>
  
- Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP). Once we are connected we are going to go to our browser and download and install Wireshark. https://www.wireshark.org
+ Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP).
+
+ </p>
+<br />
+
+ <img src="https://i.imgur.com/KcQkkyV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ </p>
+<br />
+
+ 
+ Once we are connected we are going to go to our browser and download and install Wireshark. https://www.wireshark.org
  <b/>
  
  </p>
