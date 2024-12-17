@@ -77,13 +77,18 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 </p>
 <p>
  
- Click review and create, and it will create our second VM.
+ Click review and create, We have created our second Virtual Machine.
+
+ </p>
+<p>
+ </p>
+<p>
  
- 2.) Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection app. Once we are connected we are going to go to our browser and download and install Wireshark.
+ Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP). Once we are connected we are going to go to our browser and download and install Wireshark.
  
  "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education." 
  
- 3.) Open wireshark and filter for ICMP traffic only.
+ Open wireshark and filter for ICMP traffic only.
  
  <p>
 <img src="https://imgur.com/RrtChUe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
