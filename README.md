@@ -1,6 +1,6 @@
 # Azure-Network-Protocols
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/3ASB3WY.png" alt="Traffic Examination"/>
 </p>
 
 <h1>Network Security Groups and Inspecting Traffic Between Azure Virtual Machines</h1>
