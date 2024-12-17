@@ -55,14 +55,15 @@ We will observe various network traffic to and from Azure Virtual Machines with 
   
   Click review and create our VM.
   
-  Now that we have created our first VM we are going to go ahead and create our second VM, but this time it will be a Ubuntu Server 20.04 LTS machine. It will be the same process as creating our first machine but instead we are going to switch the SSH public key to password instead. 
+  Now we will create the second Virtual Machine, but this time it will be a Ubuntu Server 20.04 LTS machine. It will be the same process as creating our first machine but instead we are going to switch the SSH public key to password instead. 
   
 <p>
-<img src="https://imgur.com/0KT3Fmb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s0GxVvx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
+ <img src="https://i.imgur.com/mLrA4C6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <p>
+ <img src="https://i.imgur.com/bikM8P2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <img src="https://imgur.com/pyxsHfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
