@@ -42,8 +42,10 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <img src="https://i.imgur.com/JKvpQo7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+</p>
+<p>
   
-2.) After this step we are going to click on next until we get to the networking page and it should automatically create a virtual network and subnet for us. 
+ After this step we are going to click on next until we get to the networking page and it should automatically create a virtual network and subnet for us. 
   
 
 <p>
