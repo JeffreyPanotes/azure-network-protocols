@@ -112,7 +112,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 
  
  <p>
-<img src="https://imgur.com/RrtChUe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZyOZ0qS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  </p>
@@ -121,7 +121,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  4.) We are going to want to retrieve the private IP address of our Ubuntu VM and then attempt to ping it from within our Windows 10 VM using wireshark. To ping the private IP address of the Ubuntu machine open CMD or Powershell on the Windows machine and type: ping 10.0.0.5 or whatever the private IP address is for your Ubuntu machine.
  
 <p>
-<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kWg0lBE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
