@@ -198,7 +198,7 @@ Back in the Windows 10 Virtual Machine, observe the ICMP traffic in WireShark an
  <br />
 <p>
 
-<img src="https://i.imgur.com/HT9N7Un.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8U4j8Wr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 <p>
