@@ -166,8 +166,22 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <img src="https://i.imgur.com/0PpPJ5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
-   Re-enable ICMP traffic for the Network Security Group your Ubuntu Virtual Machine is using
+   Re-enable ICMP traffic for the Network Security Group on your Ubuntu Virtual Machine by deleting the inbound security rule that you created prior .
+
+ <br />
+</p>
+<img src="https://i.imgur.com/pFJV8Qh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p>
+
+ 
 Back in the Windows 10 Virtual Machine, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+
+  <br />
+</p>
+<img src="blob:https://imgur.com/11b8dca1-b172-459e-9a1d-177d9ba7d6f3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p>
 
  
   The next thing we are going to do is Observe SSH Traffic.
