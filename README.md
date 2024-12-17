@@ -209,12 +209,18 @@ Now we observe DNS traffic, I used the filter udp.port == 53 and the command nsl
 <img src="https://i.imgur.com/SXyMgZd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <p>
+
+
+
+Lastly we observe RDP traffic. The filter for Wireshark is tcp.port == 3389. There is non-stop traffic because RDP is constantly showing me a live stream from one computer to another (in my case, my computer accessing the Virtual Machine that is hosted on Azure) and this traffic is always transmitted. 
  
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/5EP2OGT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
  
+ <br />
+<p>
+
  
- 
- 
+ This write-up effectively details our exploration of network traffic using various protocols and tools like Wireshark. 
  
  
  
