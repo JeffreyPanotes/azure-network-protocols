@@ -33,13 +33,13 @@ We will observe various network traffic to and from Azure Virtual Machines with 
  In Azure we are going  create a resource group so we can put both of our virtual machines in. Once we have our resource group made we then want to make our first virtual machine. The first virtual machine we are going to make is a Windows 10 vm. Select the resource you made, and then name the virtual machine VM1. Make sure you select Windows 10 Pro, version 22H as the operating system. As for the size of the machine we are going to want atleast 2 vcpus, and 16 gb of memory. Create a username and password , and keep the inbound port rules as default options.
 
 <p>
-<img src="https://imgur.com/WgPD275.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0BJ4CEM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
 
 <p>
-<img src="https://imgur.com/X6ZMTJG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JKvpQo7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
