@@ -184,15 +184,33 @@ Back in the Windows 10 Virtual Machine, observe the ICMP traffic in WireShark an
 <p>
 
  
-  The next thing we are going to do is Observe SSH Traffic.
+  Next, we examine SSH traffic. I logged in to the Ubuntu server via PowerShell with the ssh command. With Wireshark, I filtered the traffic with tcp.port == 22. While logged into the Ubuntu server, 
+</p>
+<br />
  
+ <img src="https://i.imgur.com/ESbqrjs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
- 
+<br />
+<p>
 
  
+ I exited the Ubuntu server in order to filter for DHCP traffic. To see it in action, I decided to attempt to issue a new IP address from my Virtual Machine. The command ipconfig /renew will attempt to issue the new IP address and will temporarily disconnect  for a few seconds. After reconnecting, the resulting traffic is shown in Wireshark.
+ <br />
+<p>
+
+<img src="https://i.imgur.com/HT9N7Un.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<p>
+
+Now we observe DNS traffic, I used the filter udp.port == 53 and the command nslookup. I wanted to see the results that are from looking up google.com and disney.com, two very popular visited sites.
+<br />
+<p>
+<img src="https://i.imgur.com/SXyMgZd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<p>
  
- 
- 
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
  
  
  
