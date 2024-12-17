@@ -141,8 +141,12 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <p>
  
   In  Powershell ping www.google.com and observe the traffic in wireshark.
+
+   <br />
+</p> <br />
+</p>
  
-   We then are going to initiate a non-stop ping from our Windows 10 Virtual Machine to our Ubuntu Virtual Machine.
+   We  are now going to initiate a non-stop ping from our Windows 10 Virtual Machine to our Ubuntu Virtual Machine.
  
    Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic. To disable incoming ICMP traffic click "Add" new rule and copy everything exactly from the picture. Once that is done you can create the rule and it will create automatically and show up as a new rule.
  
