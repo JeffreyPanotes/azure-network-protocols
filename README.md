@@ -47,7 +47,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
   
 
 <p>
-<img src="https://imgur.com/XzdSPoR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tt5dKZF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
