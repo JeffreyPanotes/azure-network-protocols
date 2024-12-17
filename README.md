@@ -30,7 +30,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <h2></h2>
 
 
- In Azure we are going  create a resource group so we initalize both of our virtual machines. Once we have our resource group made we then want to make our first virtual machine. The first virtual machine we are going to make is a Windows 10 virtual machine. Select the resource group you made,  and then name the virtual machine windows-vm ,put in the region as east-us 2. Under image make sure you select Windows 10 Pro, version 22H as the operating system. As for the size of the machine we are going to want to use atleast 2 vcpus, and 8 gb of memory. Create a username and password , click next and advance to the Networking tap.
+ In Azure we are going  create a resource group so we can initalize both of our virtual machines. Once we have our resource group made we then want to make our first virtual machine. The first virtual machine we are going to make is a Windows 10 virtual machine. Select the resource group you made,  and then name the virtual machine windows-vm ,put in the region as east-us 2. Under image make sure you select Windows 10 Pro, version 22H as the operating system. As for the size of the machine we are going to want to use atleast 2 vcpus, and 8 gb of memory. Create a username and password , click next and advance to the Networking tap.
 
 <p>
 <img src="https://i.imgur.com/0BJ4CEM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
