@@ -137,17 +137,21 @@ We will observe various network traffic to and from Azure Virtual Machines with 
    Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic. To disable incoming ICMP traffic click "Add" new rule and copy everything exactly from the picture. Once that is done you can create the rule and it will create automatically and show up as a new rule.
  
  <p>
-<img src="https://imgur.com/r3dH3Yy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iMHClQN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- 
+ <img src="https://i.imgur.com/lKGTmIY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-<img src="https://imgur.com/qiSIrsX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cucYV87.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  Now that we have disabled incoming ICMP traffic from VM2 if we go back to VM1 you can see the ping request is timing out. 
- 
+ <br />
+</p>
+<img src="https://i.imgur.com/0PpPJ5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p>
    Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 Stop the ping activity
