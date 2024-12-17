@@ -69,6 +69,13 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <p>
   
   Click next until we get to the networking .
+  </p>
+<br />
+</p>
+<br />
+</p>
+<br />
+
   
   The networking should automatically give us the virtual network from the Virtual Machine as well as the subnet. 
   
@@ -76,35 +83,43 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <img src="https://i.imgur.com/Gsy2yVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- 
- Click review and create, We have created our second Virtual Machine.
+  Click review and create, We have created our second Virtual Machine.
+</p>
+<br />
 
  </p>
 <p>
  </p>
 <p>
  
- Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP). Once we are connected we are going to go to our browser and download and install Wireshark.
+ Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection (RDP). Once we are connected we are going to go to our browser and download and install Wireshark. https://www.wireshark.org
  <b/>
  
  </p>
 <p>
+ </h1>
  </p>
 <p>
  
  "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education." 
  </p>
-<p>
- </p>
+<br />
+</p>
+<br />
 <p>
  
  Open wireshark and filter for ICMP traffic only.
+ </p>
+<br />
+
  
  <p>
 <img src="https://imgur.com/RrtChUe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- 
+ </p>
+<br />
+
  4.) We are going to want to retrieve the private IP address of our Ubuntu VM and then attempt to ping it from within our Windows 10 VM using wireshark. To ping the private IP address of the Ubuntu machine open CMD or Powershell on the Windows machine and type: ping 10.0.0.5 or whatever the private IP address is for your Ubuntu machine.
  
 <p>
