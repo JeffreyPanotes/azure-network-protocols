@@ -72,9 +72,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
   </p>
 <br />
 </p>
-<br />
-</p>
-<br />
+
 
   
   The networking should automatically give us the virtual network from the Virtual Machine as well as the subnet. 
